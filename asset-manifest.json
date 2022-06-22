@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Chatify/static/css/main.33af8ada.css",
+    "main.js": "/Chatify/static/js/main.c9e75f98.js",
+    "static/media/attach.svg": "/Chatify/static/media/attach.66099c4ca085aca640753185d1c9e998.svg",
+    "static/media/logo.svg": "/Chatify/static/media/logo.4d1c5e357a048e89130156c1b5dccfa6.svg",
+    "static/media/remove.svg": "/Chatify/static/media/remove.9f6920d274e833b558c41173a2f1e89a.svg",
+    "index.html": "/Chatify/index.html",
+    "main.33af8ada.css.map": "/Chatify/static/css/main.33af8ada.css.map",
+    "main.c9e75f98.js.map": "/Chatify/static/js/main.c9e75f98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33af8ada.css",
+    "static/js/main.c9e75f98.js"
+  ]
+}

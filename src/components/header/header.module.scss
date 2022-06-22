@@ -1,0 +1,71 @@
+.header {
+    display: grid;
+    grid-template-columns: 60% 23% 10%;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+
+    .headerLogo {
+        justify-self: start;
+        margin-left: 50px;
+
+        .logoLink {
+            display: flex;
+            color: #000000;
+            font-weight: 700;
+            align-items: center;
+
+            img {
+                height: 35px;
+                width: 50px;
+                background: transparent;
+            }
+        }
+    }
+
+    .headerMenu {
+        display: flex;
+        gap: 15px;
+        justify-self: end;
+
+        .headerMenuItem {
+            text-decoration: none;
+            font-weight: 600;
+            color: gray;
+
+            &.active{
+                color: lightcoral;
+                font-weight: 700;
+
+                &:hover{
+                    color: lightcoral;
+                }
+            }
+
+            &:hover {
+                color: crimson;
+            }
+        }
+    }
+
+    .notificationBtnContainer {
+        display: flex;
+        justify-content: flex-end;
+
+        .notificationsBtn {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: all .3s;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+
+            img {
+                height: 35px;
+                width: 35px;
+            }
+        }
+    }
+}

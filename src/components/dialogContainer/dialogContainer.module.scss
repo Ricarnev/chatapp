@@ -1,0 +1,52 @@
+.dialogContainer {
+    display: grid;
+    grid-template-rows: 60px 1fr auto;
+    height: 100%;
+    row-gap: 15px;
+    background: #FFFFFF;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    .dialogHeader {
+        height: 60px;
+
+        .dialogDetails {
+            display: flex;
+            gap: 15px;
+
+            .dialogLogo {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                border: 3px solid green;
+                padding: 2px;
+
+                &.offline {
+                    border: 3px solid red !important;
+                }
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+            .dialogName {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .messagesContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        overflow-y: scroll;
+    }
+
+    .noMessages {
+        text-align: center;
+    }
+}

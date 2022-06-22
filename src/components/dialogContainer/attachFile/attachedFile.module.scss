@@ -1,0 +1,27 @@
+.attachment {
+    width: 70px;
+    height: 70px;
+    background: rgba($color: #000000, $alpha: 0.3);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 30px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    position: relative;
+
+    .attachmentName {
+        grid-row-start: 2;
+    }
+
+    .removeIcon{
+        position: absolute;
+        top: 12%;
+        right: 10%;
+        height: 15px;
+        width: 15px;
+    }
+}

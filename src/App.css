@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: #F5F7FB;
+}
+
+.content{
+  text-align: center;
+}
+
+.linkToChat{
+  font-weight: 600;
+  font-size: 18px;
+  color: cornflowerblue;
+}

@@ -1,0 +1,53 @@
+.message {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-right: 100px;
+
+    &.senderYou {
+        margin-right: 0px;
+        margin-left: 100px;
+
+        .messageContent {
+            background-color: #4E426D !important;
+            color: white;
+        }
+    }
+
+    .senderName {
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .messageContent {
+        background-color: #F5F7FB;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 10px;
+        gap: 5px;
+        width: auto;
+
+        .messageText {
+            margin: 0;
+        }
+
+        .attachments {
+
+            .attachmentsHeader{
+                font-size: 14px;
+            }
+
+            .attachmentsList {
+                display: flex;
+                gap: 5px;
+            }
+        }
+
+        .sendTime {
+            align-self: end;
+            font-size: small;
+        }
+    }
+}
